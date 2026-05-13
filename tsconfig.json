@@ -1,0 +1,19 @@
+{
+    "extends": "expo/tsconfig.base",
+    "compilerOptions": {
+        "strict": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/assets": ["assets"],
+            "@/assets/*": ["assets/*"],
+            "@/common/*": ["src/common/*"],
+            "@/locales/*": ["src/locales/*"],
+            "@/modules/*": ["src/modules/*"],
+            "@/navigation/*": ["src/navigation/*"],
+            "@/types": ["src/types"],
+            "@/types/*": ["src/types/*"]
+        },
+        "moduleSuffixes": [".android", ".ios", ""]
+    },
+    "exclude": ["*.app"]
+}

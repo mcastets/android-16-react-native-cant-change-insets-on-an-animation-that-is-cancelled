@@ -1,0 +1,11 @@
+# ignore json mocks
+assets/mocks/*.json
+# ignore lottie animations
+assets/animations/*.json
+# ignore Liquid Glass icon
+assets/app.icon/icon.json
+
+# auto generated files
+.storybook/storybook.requires.ts
+plugins/*.js
+

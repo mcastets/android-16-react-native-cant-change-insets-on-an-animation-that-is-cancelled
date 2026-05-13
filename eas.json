@@ -1,0 +1,18 @@
+{
+    "cli": {
+        "version": ">= 18.1.0",
+        "promptToConfigurePushNotifications": false,
+        "appVersionSource": "remote"
+    },
+    "build": {
+        "base": {
+            "node": "24.14.0"
+        },
+        "development": {
+            "extends": "base",
+            "environment": "development",
+            "developmentClient": true,
+            "distribution": "internal"
+        }
+    }
+}
