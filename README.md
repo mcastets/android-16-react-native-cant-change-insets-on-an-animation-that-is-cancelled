@@ -5,10 +5,11 @@ another running animation with `react-native-reanimated`.
 
 ## Setup
 
-1. Install the dev build (`devbuild.apk`) on any Android device (emulator or physical device). You can use Expo Orbit for a quick setup.
-2. `npm install`
-3. `npm run start`
-4. Pair your device (scan the QR code or enter the IP address)
+1. Build a custom dev build with `npm run build:android:dev:local` or fetch the existing one from my [Google Drive](https://drive.google.com/file/d/1uh5-UPMaM_F_p6CRR4W6Qm03_P7obsG-/view?usp=drive_link).
+2. Install the custom dev build on your device (emulator or physical). Use Orbit from Expo for easier setup.
+3. `npm install`
+4. `npm run start`
+5. Pair your device (scan the QR code or enter the IP address)
 
 ## How to reproduce the issue
 
